@@ -1,0 +1,57 @@
+header{
+    background-color: #5385e2;
+    font-weight: bold;
+    border: 0%;
+    padding: 0%;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+}
+
+a{
+    color: #333399;
+}
+
+body{
+    background-color: #FCF8FF;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 130%;
+}
+
+p,ul,li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+
+footer{
+    background-color: #D16BA5;
+}
+
+article{
+    position: relative;
+    left: 10%;
+    bottom: 20px;
+}
+
+header img,h1,header p{
+    position: relative;
+    left: 40%;
+    color: white;
+
+}
+
+aside p{
+    color: black;
+    font-weight: bold;
+    font-size: 110%;
+}

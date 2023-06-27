@@ -1,56 +1,59 @@
-header{
+header {
     background-color: #5385e2;
     font-weight: bold;
-    border: 0%;
-    padding: 0%;
+
 }
 
-h1{
+h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 200%;
 }
 
-a{
+a {
     color: #333399;
 }
 
-body{
+section {
     background-color: #FCF8FF;
 }
 
-h2{
+h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 130%;
 }
 
-p,ul,li{
+p,
+ul,
+li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
 }
 
-h3{
+h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100%;
 }
 
-footer{
+footer {
     background-color: #D16BA5;
 }
 
-article{
+article {
     position: relative;
     left: 10%;
     bottom: 20px;
 }
 
-header img,h1,header p{
+header img,
+h1,
+header p {
     position: relative;
     left: 40%;
-    color: white;
-
+    color: black;
+    font-weight: bold;
 }
 
-aside p{
+aside p {
     color: black;
     font-weight: bold;
     font-size: 110%;

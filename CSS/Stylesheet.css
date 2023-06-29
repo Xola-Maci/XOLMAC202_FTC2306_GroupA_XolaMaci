@@ -1,18 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-color: #5385e2;
     font-weight: bold;
+    margin: 0rem;
+    padding: 2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    border: 2px;
+    border: #5385e2;
+    border-style: solid;
+}
 
-
+img {
+    border-radius: 360%;
+    border: #FCF8FF 1px;
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 200%;
-    margin: 0;
+    
 }
 
 a {
     color: #333399;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 section {
@@ -22,29 +40,53 @@ section {
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 130%;
-    
+    padding: 1rem;
+
 }
 
-p,
-ul,
-li {
+Ul li{
+list-style: none;
+}
+
+ul, li{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+    padding-left: 0.5rem;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    padding: 1rem;
+}
+
+aside ul, aside li{
+    padding: 0;
 }
 
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100%;
+    padding: 1rem;
 }
 
 footer {
     background-color: #D16BA5;
+    padding: 1rem;
+    padding-right: 10rem;
+    margin: 0rem;
+    border: #D16BA5 1rem;
 }
 
 article {
-    position: relative;
-    left: 10%;
-    bottom: 20px;
+background-color: white;
+margin: 5rem;
+padding: 1rem;
+padding-right: 1rem;
+border: 2rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+text-align: left;
 }
 
 header img,
@@ -54,10 +96,27 @@ header p {
     left: 40%;
     color: black;
     font-weight: bold;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 aside p {
     color: black;
     font-weight: bold;
     font-size: 110%;
+    padding-bottom: 10px;
+    padding-right: 0;
 }
+
+aside {
+    background-color: rgb(110, 143, 143);
+    padding: 1rem;
+    padding-right: 7rem;
+    border: 20px;
+    margin: 0rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 70rem;
+}
+

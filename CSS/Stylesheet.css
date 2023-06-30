@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -25,7 +25,7 @@ img {
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 200%;
-    
+
 }
 
 a {
@@ -45,11 +45,12 @@ h2 {
 
 }
 
-Ul li{
-list-style: none;
+Ul li {
+    list-style: none;
 }
 
-ul, li{
+ul,
+li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     padding-left: 0.5rem;
@@ -61,7 +62,8 @@ p {
     padding: 1rem;
 }
 
-aside ul, aside li{
+aside ul,
+aside li {
     padding: 0;
 }
 
@@ -81,15 +83,15 @@ footer {
 }
 
 article {
-background-color: white;
-width: 100%;
-margin: 5rem;
-padding: 1rem;
-padding-right: 1rem;
-border: 2rem;
-margin-top: 1rem;
-margin-bottom: 1rem;
-text-align: left;
+    background-color: white;
+    width: 100%;
+    margin: 5rem;
+    padding: 1rem;
+    padding-right: 1rem;
+    border: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
 }
 
 header img,
@@ -122,4 +124,3 @@ aside {
     margin-bottom: 0;
     margin-right: 70rem;
 }
-

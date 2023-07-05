@@ -3,8 +3,8 @@
     padding: 0;
 }
 
-body {
-    border: 5px solid black;
+div{
+    background:url(imagefiles\eberhard-grossgasteiger-y2azHvupCVo-unsplash.jpg) ;
 }
 
 header {
@@ -16,11 +16,11 @@ header {
     padding-bottom: 20px;
     padding-right: 10px;
     border: 2px;
-    border: #5385e2;
+    border: 5px solid black;
     border-style: solid;
 }
 
-img {
+picture {
     border-radius: 50%;
 }
 
@@ -98,7 +98,7 @@ article {
     text-align: left;
 }
 
-header img,
+header picture,
 h1,
 header p {
     position: relative;

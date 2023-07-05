@@ -4,13 +4,12 @@
 }
 
 div{
-    background:url(imagefiles\eberhard-grossgasteiger-y2azHvupCVo-unsplash.jpg) ;
+    background: #5385e2 url(/imagefiles/oc-gonzalez-xg8z_KhSorQ-unsplash.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 header {
-    background-color: #5385e2;
     font-weight: bold;
     margin: 0rem;
     padding: 2rem;

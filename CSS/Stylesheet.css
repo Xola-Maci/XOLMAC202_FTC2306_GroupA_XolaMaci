@@ -5,6 +5,8 @@
 
 div{
     background:url(imagefiles\eberhard-grossgasteiger-y2azHvupCVo-unsplash.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {

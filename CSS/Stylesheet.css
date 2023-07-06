@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-div{
+.Hero{
     background: #5385e2 url(/imagefiles/oc-gonzalez-xg8z_KhSorQ-unsplash.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;

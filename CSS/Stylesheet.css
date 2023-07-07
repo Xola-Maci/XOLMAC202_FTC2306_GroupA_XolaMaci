@@ -4,7 +4,7 @@
 }
 
 .Hero{
-    background: #5385e2 url(/imagefiles/oc-gonzalez-xg8z_KhSorQ-unsplash.jpg) ;
+    background: #5385e2 ur() ;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,7 +21,7 @@ header {
     border-style: solid;
 }
 
-picture {
+img{
     border-radius: 50%;
 }
 
@@ -104,7 +104,7 @@ h1,
 header p {
     position: relative;
     left: 40%;
-    color: black;
+    color: rgb(190, 16, 54);
     font-weight: bold;
     padding: 0;
     padding-top: 10px;

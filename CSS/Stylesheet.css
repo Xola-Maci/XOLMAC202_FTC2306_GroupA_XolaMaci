@@ -4,7 +4,7 @@
 }
 
 .Hero{
-    background: #5385e2 ur() ;
+    background: #5385e2 url(/imagefiles/aaron-burden-GVnUVP8cs1o-unsplash.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -80,7 +80,8 @@ h3 {
 
 footer {
     background-color: #D16BA5;
-    
+    width: auto;
+    height: auto;
     padding: 1rem;
     padding-right: 10rem;
     margin: 0rem;
@@ -104,8 +105,8 @@ h1,
 header p {
     position: relative;
     left: 40%;
-    color: rgb(190, 16, 54);
-    font-weight: bold;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
     padding: 0;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -168,3 +169,8 @@ form label{
 span{
     color: brown;
 }
+/*======================Mobile================= */
+
+/*======================Tablet================= */
+
+/*======================Desktop================= */

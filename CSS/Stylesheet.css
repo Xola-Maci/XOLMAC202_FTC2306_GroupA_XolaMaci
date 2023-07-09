@@ -131,6 +131,7 @@ aside {
     margin-right: 70rem;
 }
 form{
+    border-left: 1px solid rgba(255,255,255,0.2);
     position: relative;
     left: 30%;
     padding: 10px;
@@ -170,7 +171,90 @@ span{
     color: brown;
 }
 /*======================Mobile================= */
+@media only screen and (max-width: 425px) {
+    .Hero{
+        background: #FCF8FF;
+        margin: auto;
+        position: sticky;
+    }
 
+    header p, header h1{
+        font-size: 100%;
+        left: 10%;
+        font-weight: bold;
+
+    }
+
+    .side-menu{
+        padding-left: 10px;
+        display: block;
+    }
+
+    .detailed-content{
+        padding-left: 20px;
+        display: block;
+    }
+
+    .footer{
+        padding: auto;
+      
+        footer form{
+            padding: 5px;
+            left: 20%;
+        }
+    }
+
+}
 /*======================Tablet================= */
+@media screen and (max-width: 700px) {
+    .Hero{
+        background-size: auto;
+        margin: auto;
+        position: sticky;
+    }
 
+    header p, header h1{
+        font-size: 100%;
+        left: 10%;
+        font-weight: bold;
+
+    }
+
+    h2, h3{
+        font-style: italic;
+        font-display: inherit;
+    }
+
+    .side-menu{
+        font-style: oblique;
+        padding-left: 20px;
+        display: block;
+    }
+
+    .detailed-content{
+        padding-left: 30px;
+        display: block;
+    }
+
+    .footer{
+        padding: auto;
+      
+        footer form{
+            padding: 7px;
+            left: 20%;
+        }
+    }
+}
 /*======================Desktop================= */
+@media screen and (max-width: 1420px) {
+    
+    .side-menu{
+        position: fixed;
+        padding-right: 0.5px;
+        position: sticky;
+    }
+
+    .detailed-content{
+        display: inline-block;
+    }
+}

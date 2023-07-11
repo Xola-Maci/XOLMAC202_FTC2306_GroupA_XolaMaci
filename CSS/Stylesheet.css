@@ -4,7 +4,7 @@
 }
 
 .Hero{
-    background: #5385e2 url(/imagefiles/aaron-burden-GVnUVP8cs1o-unsplash.jpg) ;
+    background: #5385e2 url(/imagefiles/kevin-lanceplaine-sO-JmQj95ec-unsplash.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -80,7 +80,7 @@ h3 {
 }
 
 footer {
-    background-color: #D16BA5;
+    background-color: #FFC75F;
     width: auto;
     height: auto;
     padding: 1rem;
@@ -90,8 +90,7 @@ footer {
 }
 
 article {
-    background-color: white;
-    
+    background-color: #FF9671;
     margin: 5rem;
     padding: 1rem;
     padding-right: 1rem;
@@ -122,14 +121,15 @@ aside p {
 }
 
 aside {
-    background-color: rgb(110, 143, 143);
+    background-color: #FF6F91;
     padding: 1rem;
+    width: 5%;
     padding-right: 7rem;
     border: 20px;
     margin: 0rem;
     margin-top: 0;
     margin-bottom: 0;
-    margin-right: 70rem;
+    margin-right: 0rem;
 }
 form{
     border-left: 2px solid rgba(8, 7, 7, 0.2);
